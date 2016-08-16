@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/help"   android:layout_height="10dp" android:layout_width="10dp" android:title="@string/help" android:icon= "@drawable/dialog_question2">
+
+	</item>
+
+	<item android:id="@+id/contact"   android:layout_height="10dp" android:layout_width="10dp" android:title="@string/contact" android:icon= "@drawable/contact2"  >
+    
+    </item>
+    
+	<item android:id="@+id/save" android:layout_height="10dp" android:layout_width="10dp" android:title="@string/download" android:icon= "@drawable/download2"  >
+    
+    </item>
+    
+	<item android:id="@+id/load" android:layout_height="10dp" android:layout_width="10dp" android:title="@string/Load" android:icon= "@drawable/load_upload"  >
+    
+    </item>
+
+
+</menu>

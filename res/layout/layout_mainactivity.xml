@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="10dp"
+      android:imeOptions="actionNext"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+		>
+
+		
+			<RelativeLayout
+				android:id="@+id/RelativeLayout1"
+				android:layout_width="wrap_content"
+				android:layout_height="384dp"
+				android:orientation="vertical">
+					
+				<TextView
+					android:id="@+id/Welcome"
+					android:layout_width="287dp"
+					android:gravity="center"
+					android:layout_height="wrap_content"
+					android:layout_alignParentTop="true"
+					android:layout_centerHorizontal="true"
+					android:text="Welcome to Smart Tracking"
+					android:textSize="20dp" />
+					
+				<TableLayout
+					android:id="@+id/tableLayout1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="15dp"
+					android:layout_marginTop="45dp"
+					android:layout_marginBottom="10dp" >
+
+					<TableRow
+						android:id="@+id/tableRow2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+
+						<TextView
+							android:id="@+id/textName"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingRight="20dp"
+							android:text="Name" />
+
+						<EditText
+							android:id="@+id/editTextName"
+							android:inputType="textVisiblePassword"
+							android:layout_width="100dp"
+							android:layout_height="wrap_content"
+							android:ems="10" 
+						   android:singleLine="true"
+							android:nextFocusDown="@+id/textView2">
+
+						</EditText>
+						
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tableRow3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp" >
+
+						<TextView
+							android:id="@+id/textPassword"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:paddingRight="20dp"
+							android:text="Password" />
+
+						<EditText
+							android:id="@+id/editTextPassword"
+							android:layout_width="5dp"
+							android:layout_height="wrap_content"
+							android:ems="10"
+							android:inputType="textPassword" />
+					</TableRow>
+
+					<TableRow
+						android:id="@+id/tableRow4"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp" >
+
+						<TextView
+							android:id="@+id/textConfirmPassword"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Confirm \nPassword" />
+
+						<EditText
+							android:id="@+id/editTextConfirmPassword"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:ems="10"  
+							android:inputType="textPassword" />
+					</TableRow>
+					
+					<TableRow
+						android:id="@+id/tableRow5"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="10dp" >
+
+						<TextView
+							android:id="@+id/textEmail"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Enter \nyour Email" />
+
+						<EditText
+							android:id="@+id/editTextEmail"
+							android:inputType="textVisiblePassword"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							 android:singleLine="true"
+							android:ems="10"
+						 />
+						 
+					</TableRow>
+						
+				</TableLayout>
+
+				<Button
+					android:id="@+id/btnLogin"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/tableLayout1"
+					android:layout_centerHorizontal="true"
+					android:layout_marginBottom="10dp"
+					android:text="Enter New Details"
+					 />
+
+				<TextView
+					android:id="@+id/textError"
+					android:layout_width="280dp"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/btnForgetDetails"
+					android:layout_centerHorizontal="true"
+					android:layout_marginLeft="40dp"
+					android:layout_marginRight="60dp"
+					android:background="@drawable/frame"
+					android:gravity="center"
+					android:paddingTop="10dp"
+					android:paddingBottom="10dp"
+					android:text=""
+					android:textColor="#ff0000"
+					android:visibility="gone" />
+
+		   
+				<Button
+					android:id="@+id/btnForgetDetails"
+					android:layout_width="100dp"
+					android:gravity="center"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:layout_centerHorizontal="true"
+					android:layout_marginBottom="10dp"
+					android:layout_below="@+id/btnLogin"
+					android:drawableTop="@drawable/decrypted"
+					android:text="forgot Details" 
+					android:textSize="12sp"
+					android:visibility="gone"/>
+
+                         
+        </RelativeLayout>
+		
+    </ScrollView>
+
+
+</LinearLayout>

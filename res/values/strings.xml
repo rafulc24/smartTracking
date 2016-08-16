@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Smart Tracking</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_stam">Stam</string>
+    <string name="contact">Thechnical Support </string>
+    <string name="help">Help</string>
+    <string name="download">Save</string>
+    <string name="Load">Load</string>
+    <string name="title_activity_list_view_images">ListViewImagesActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="Delete">Delete</string>
+	<string name="DeleteAll">Delete All</string>
+	<string name="ChooseFile">Load File</string>
+     
+    
+    
+	<string name="help_details">Load</string>
+    
+	<string name="help_MainActivity"> 	
+	
+	
+		"IMPORTANT INSTRUCTIONS: you have to REMEMBER YOUR NAME AND PASSWORD after the first signing and ALSO you have to write your email address CORRECTLY, cause if you forgot your details and you press on \"forget details\" button, you would not get your details to your mail. in addition, YOU HAVE TO PAY ATTENTION about the case when you press on \"forget details\" button, you wouldnt see this button until you log a minimum once a time after you press on this button 
+   
+			  \nAbout Login: Login by username and password is the surest way that only the owner of the device
+		can go there and look at the information in its possession without access foreign bodies not relevant.
+		The first time of connected the user must insert his email to ensure that event he forget the password /user name and then he get this data in this mail.
+		\nConfirm: the first time that user insert a password he must to confirm his choise.\n\n    
+		IF YOU WANT TO BACK TO THE APP\nPRESS THE BACK BUTTON
+			
+	 </string>
+				
+	<string name="help_NextActivity"> 
+	
+		Help menu: 
+		Smart tracking is the way to know how many times you was in your applications
+		phone during a last week.
+		Today until six days ago: smart tracking menu is a buttons of the day
+		that you want to choose, in this application part the user choose 
+		a specific information of the day.
+		When the user click on some of day options his view have 2 things : name , time .
+		\nName: is the name of the application that you was  in this specific day.
+		\nTime: how long of time you was in this specific day.
+
+		\nHelp Save : only if the user want to save some of day data he choose in this option.
+
+		\nHelp Load: when the user want to look his save data he choose "Load" and then
+		he will see a list of save data.\n\n
+		IF YOU WANT TO BACK TO THE APP\nPRESS THE BACK BUTTON
+					
+				
+    </string>
+    
+     <string name="contact_details">  You can read the whole Guide of this application by pressing the menu button and press on the help icon Or for technical support you can send message to this email: smarttracking24@gmail.com \nor call us 02167532324 \n\n\nIF YOU WANT TO BACK TO THE APP\nPRESS THE BACK BUTTON
+        
+	</string>   
+        
+	<string name="help_LoadActivity">
+	 
+		 This class have the files that found the data about all of programs that working at the same time and how many theyWorking. The user save the data in Next_Activity  here there is a possibility for the user perform several actions
+		on the file.
+		Before the user will perform the activity or he must early  to chose the file by thus he presses a button on the file.
+		Then to load the file he chooses to press the button "Load_file" located in the menu ,or  to delete the file and then clicks a button "Delete file". 
+		Delete file- also user can delete all files by clicks a button "Delete all" that located in the menu
+
+	</string>   
+     
+
+</resources>

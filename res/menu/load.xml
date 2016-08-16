@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+
+    <item android:id="@+id/Delete"   android:layout_height="10dp" android:layout_width="10dp" android:title="@string/Delete" android:icon= "@drawable/delete_one">
+
+	</item>
+
+	<item android:id="@+id/DeleteAll"   android:layout_height="10dp" android:layout_width="10dp" android:title="@string/DeleteAll" android:icon= "@drawable/delete_all">
+    
+    </item>
+    
+	<item android:id="@+id/help"   android:layout_height="10dp" android:layout_width="10dp" android:title="@string/help" android:icon= "@drawable/dialog_question2">
+
+	</item>
+        
+	<item android:id="@+id/ChooseFile"   android:layout_height="10dp" android:layout_width="10dp" android:title="@string/ChooseFile" android:icon= "@drawable/load_upload">
+
+	</item>
+    
+</menu>
